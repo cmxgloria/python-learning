@@ -1,1 +1,148 @@
+https://etherpad.net/p/python
+
+https://www.dataschool.io/python-quick-reference/
+
+
+
+ https://etherpad.net/p/python
+
+https://www.dataschool.io/python-quick-reference/
+
+Write your name, why you want to learn python and an interesting fact about you.
+
+REBECCA LOWRY- I did a unit at night school on it and had 4 hours to learn and do an assignment, i never really got the grips of it. so im just here to gain more understanding. interesting fact: i play the drums 
+guy- explains game
+guy asks girl- pick a number between 1 and 100
+girl guesses number
+number is wrong
+guesses again - wrong
+guesses again- correct 
+
+
+
+Steve - upskill and learn how to program to make cool stuff - Something interesting about me: I like to spearfish 
+Instructions exeplained. bottom and upper number set. 
+girl guesses number around the middle
+guy advises that number is too high
+girl guesses lower number
+Guy advises it is too high
+girl guesses a number slightly lower
+guy advises number is still too low
+Guys advises the correct number
+
+Bhuvan Sharma- upskilling myself with new programming language. I have a lovely daughter.
+Guess the number between 1 and 100
+Number can be greater or Smaller from the expected num
+Guess number was smaller than the expected number so the hint was given a little higher
+next guess was a bit higher so the hint got a little lower
+..
+..
+..
+in the end the expected number was met.
+
+Phoebe Snep, so I can be more employable and it seems interesting, I grew up at a winery. 
+Guessing the number 
+1. Explain how the game works 
+2. P1 thinks of a number between 1-100
+3. P2 Guesses what the number is 
+4. P1 says their number is higher 
+5. P2 guesses between that number and 100
+6. P1 Advises that their number is lower
+7. P2 guesses between the two numbers 
+8. P1 advises again 
+9. 
+
+Alice Jackson - I want to be a cool girl hacker gamer girl who is insdespensible in my workplace. I spend most of my time/money snowboarding.
+Question was posed. Find a value between x and y. Solution is presented and the answer validated as high or lower than the value. Pool of possible numbers is lowered until the correct number is found and validated.
+
+Sarah - for work and my interesting fact is that I...... am currently.... sitting. I dabble in some hobbies including oil painting and beating by boyfriend at sum sudoku.
+prompt with qualifiers - guess a number between 1 and 100
+answer
+instruct  higher lower
+answer
+instruct higher lower
+tell answer
+
+Masha - I want to learn python for career in marketing and business analytics / lived in 3 different countries within the last 3 years
+
+1. Ask for a number between 1 and 100
+guess
+2. Say if the number >< or = the guess 1 
+guess 2
+3. Say if the number >< or = the guess 2 
+guess 3
+
+Melani Anggraeni- My degree doesn't support my need in technical skills in coding as much. Interesting fact: I used to be able to see ghosts when i was a kid and interested in paranormal investigation videos. 
+1. Instruction/ explain rules 
+2. Volunteer guess
+3. Take in the guess and determine whether it's closer and further away
+4. Guess again if answer not correct
+5. Take the guess 
+6. If answer is correct, game over 
+
+Charm - I 'm new to learning data science and python is in my list to study.
+1. choose a number from a given range
+2. check if number equals to the number to guess
+3. if not, say if lower or higher
+4. pick another number between the new range
+5. repeat until the number is correct
+
+
+
+
+M -disappear
+shift&enter - get the result (back)
+A-above
+B-below
+X- cut
+
+from random import randint----then shift&enter to execute it
+
+
+Learning project 
+```
+from random import randint
+
+def get_boundaries(past_guesses, answer):
+	'''
+	this function takes a list of past guesses and the answer value,
+	sorts the list and returns the value to the left and right of the answer position
+	'''
+	past_guesses.sort()
+	idx = past_guesses.index(answer)
+	return past_guesses[idx - 1], past_guesses[idx + 1]
+
+print("I'm thinking of a number between 1 and 100")
+
+answer = randint(1,100)
+
+past_guesses = [1,100, answer]
+
+print(answer)
+
+game_on = True
+
+while game_on:
+	guess = int(input('What is your guess? '))
+    
+	past_guesses.append(guess)
+    
+	lower, upper = get_boundaries(past_guesses, answer)
+    
+	if answer == guess:
+    	print('**You win!**')
+    	game_on = False
+        
+	elif answer > guess:
+    	print("The number I'm thinking of is higher than that")
+    	print(f'The number is between {lower} and {upper}')
+        
+	else:
+    	print("The number I'm thinking of is lower than that")
+    	print(f'The number is between {lower} and {upper}')
+
+
+```
+
+
 
