@@ -98,6 +98,51 @@ X- cut
 
 from random import randint----then shift&enter to execute it
 
+```
+//lots of practices
+from random import randint
+from random import randint
+answer = randint(1,100)
+answer = randint(1,100)
+wer
+answer
+29
+guess = int(input('What is your guess?'))
+guess = int(input('What is your guess?'))
+What is your guess?46
+answer == guess
+False
+answer > guess
+False
+answer < guess
+answer < guess
+True
+5
+'python'+5
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-17-8c449508ca09> in <module>
+----> 1 'python'+5
+
+TypeError: can only concatenate str (not "int") to str
+
+'try'*3
+'trytrytry'
+/2
+'try'/2
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-19-13162f4716de> in <module>
+----> 1 'try'/2
+
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
+
+
+
+
+```
+
+
 
 Learning project 
 ```
