@@ -138,6 +138,62 @@ TypeError                                 Traceback (most recent call last)
 TypeError: unsupported operand type(s) for /: 'str' and 'int'
 
 
+'hello'+'there'
+'hellothere'
+ there
+'hello'+' there'
+'hello there'
+my_list =[1,22,3.7,'dog',[1,2,3]] 
+my_list
+my_list
+[1, 22, 3.7, 'dog', [1, 2, 3]]
+len(my_list)
+5
+i
+for i in my_list:
+    print(i)
+1
+22
+3.7
+dog
+[1, 2, 3]
+for i in range(10):
+    print(i)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+for i in range(10):
+    if i%2==0:
+        print(i,'is even')
+    elif i%3==0:
+        print(i, 'is divisible by 3')
+    else:
+        print(i,'is odd')
+0 is even
+1 is odd
+2 is even
+3 is divisible by 3
+4 is even
+5 is odd
+6 is even
+7 is odd
+8 is even
+9 is divisible by 3
+game_on = True
+game_on = True
+while game_on:
+    print('hello')
+    print('python')
+    game_on = False
+hello
+python
 
 
 ```
