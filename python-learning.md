@@ -8,6 +8,112 @@ https://www.dataschool.io/python-quick-reference/
 
 https://www.dataschool.io/python-quick-reference/
 
+# why learning python
+Python is a great language to learn, whether it’s your first time programming or not, for several reasons:
+
+It reads like plain English! This is something you can especially appreciate with a side-by-side. Take a look and, without worrying about what these code bits actually do, think about which is harder to read:
+Python is a great language to learn, whether it’s your first time programming or not, for several reasons:
+
+It reads like plain English! This is something you can especially appreciate with a side-by-side. Take a look and, without worrying about what these code bits actually do, think about which is harder to read:
+
+## syntax
+string use the + to add two string together
+#this sign to comment
+update the variable to write new variable in the front
+```
+v
+```
+Arithmetic
+```
+mirthful_addition = 12381 + 91817
+amazing_subtraction = 981 - 312
+trippy_multiplication = 38 * 902
+happy_division = 540 / 45
+sassy_combinations = 129 * 1345 + 120 / 6 - 12
+```
+
+```
+cucumbers = 3
+price_per_cucumber = 3.25
+
+total_cost = cucumbers * price_per_cucumber
+print total_cost
+# 9.75
+```
+
+two types of division
+```
+quotient1 = 7./2
+# the value of quotient1 is 3.5
+quotient2 = 7/2.
+# the value of quotient2 is 3.5
+quotient3 = 7./2.
+# the value of quotient3 is 3.5
+An alternative way is to use the float() method:
+
+quotient1 = float(7)/2 
+# the value of quotient1 is 3.5
+```
+
+```
+cucumbers = 100
+num_people = 6
+
+whole_cucumbers_per_person = cucumbers/num_people
+print whole_cucumbers_per_person
+
+float_cucumbers_per_person = float(cucumbers)/num_people
+print float_cucumbers_per_person
+#16
+#16.6666667
+```
+
+Multi-line Strings
+We have seen how to define a string with single quotes and with double quotes. If we want a string to span multiple lines, we can also use triple quotes:
+
+address_string = """136 Whowho Rd
+Apt 7
+Whosville, WZ 44494"""
+
+bollean
+```
+age_is_12 = False
+name_is_maria = True
+```
+
+convert str and int
+```
+We can do that using str():
+
+age = 13
+print "I am " + str(age) + " years old!"
+This would print:
+
+>>> "I am 13 years old!"
+Similarly, if we have a string like "7" and we want to perform arithmetic operations on it, we must convert it to a numeric datatype. We can do this using int():
+
+number1 = "100"
+number2 = "10"
+
+string_addition = number1 + number2 
+#string_addition now has a value of "10010"
+
+int_addition = int(number1) + int(number2)
+#int_addition has a value of 110
+
+If you use int() on a floating point number, it will round the number down. To preserve the decimal, you can use float():
+
+string_num = "7.5"
+print int(string_num)
+print float(string_num)
+>>> 7
+>>> 7.5
+```
+
+
+
+## 
+
 Write your name, why you want to learn python and an interesting fact about you.
 
 REBECCA LOWRY- I did a unit at night school on it and had 4 hours to learn and do an assignment, i never really got the grips of it. so im just here to gain more understanding. interesting fact: i play the drums 
