@@ -16,7 +16,60 @@ Python is a great language to learn, whether it’s your first time programming 
 
 It reads like plain English! This is something you can especially appreciate with a side-by-side. Take a look and, without worrying about what these code bits actually do, think about which is harder to read:
 
+## STRINGS & CONSOLE OUTPUT
+
+Escaping characters
+'There\'s a snake in my boot!'
+
+access by index
+```
+fifth_letter = "MONTY"[4]
+
+print fifth_letter
+#Y
+```
+
+string methods:
+
+len()
+lower()
+upper()
+str()
+```
+parrot = "Norwegian Blue"
+print len(parrot)
+#14
+print parrot.lower()
+print parrot.upper()
+#NORWEGIAN BLUE
+```
+
+
 ## syntax
+recap
+```
+skill_completed = "Python Syntax"
+exercises_completed = 13
+#The amount of points for each exercise may change, because points don't exist yet
+points_per_exercise = 5
+point_total = 100
+point_total += exercises_completed*points_per_exercise
+
+print("I got "+str(point_total)+" points!")
+#I got 165 points!
+pi = 3.14
+print str(pi)
+#3.14
+```
+String Concatenation
+You know about strings, and you know about arithmetic operators. Now let’s combine the two!
+
+print "Life " + "of " + "Brian"
+This will print out the phrase Life of Brian.
+
+
+
+
 string use the + to add two string together
 #this sign to comment
 update the variable to write new variable in the front
@@ -69,6 +122,7 @@ print float_cucumbers_per_person
 ```
 
 Multi-line Strings
+
 We have seen how to define a string with single quotes and with double quotes. If we want a string to span multiple lines, we can also use triple quotes:
 
 address_string = """136 Whowho Rd
